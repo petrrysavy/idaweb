@@ -16,6 +16,7 @@ In IDA, we try to make computers discover knowledge in data. To this end we deve
  - [Publications](http://cs.felk.cvut.cz/en/publications/ida)
  
 
+<!--
 ## People
 
  - [Ing. Michael Anděl](http://cs.felk.cvut.cz/en/people/andelmi2)
@@ -32,4 +33,5 @@ In IDA, we try to make computers discover knowledge in data. To this end we deve
  - [Ing. Gustav Šourek](http://cs.felk.cvut.cz/en/people/souregus)
  - [Ing. Martin Svatoš](http://cs.felk.cvut.cz/en/people/svatoma1)
  - [prof. Ing. Filip Železný, Ph.D.](http://cs.felk.cvut.cz/en/people/zelezny)
+-->
 </html>
