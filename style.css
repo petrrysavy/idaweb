@@ -5,7 +5,7 @@ h1 { margin: 1em 0px; font-family: "Oswald", serif; }
 
 header {
     text-align: center;
-    background: url("background-1220464.jpg") center;
+    background: black url("background-1220464.jpg") center;
     padding: 3em 3em;
     font-size: 14pt;
 }
