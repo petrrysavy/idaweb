@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&subset=latin-ext');
+p { margin: 0px; padding: 0px; } /* Hide additional <p> */
+body { margin: 0px; font-size: 12pt; font-family: "Roboto", sans-serif; }
+h1 { margin: 1em 0px; font-family: "Oswald", serif; }
+
+header {
+    text-align: center;
+    background: url("background-1220464.jpg") center;
+    padding: 3em 3em;
+    font-size: 14pt;
+}
+
+@media only screen and (max-width: 1200px) {
+header { background: url("background-1220464-1200.jpg") center; }
+}
+
+@media only screen and (max-width: 600px) {
+header { background: url("background-1220464-600.jpg") center; }
+}
+
+header, header a { color: #EEE; text-shadow: 0px 0px 5px black; }
+header h1 { font-size: 48pt; }
+header > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30em;
+}
+
+nav {
+    font-size: 16pt;
+    font-family: "Oswald", sans;
+    text-align: center;
+    background-color: #15241d;
+}
+nav ul { margin: 0px auto }
+nav ul li { display: inline-block; margin: 1em 2em; text-transform: uppercase }
+nav, nav a { color: #EEE; text-decoration: none }
+
+main {
+    max-width: 30em;
+    margin: 0px auto;
+    padding: 2em 3em;
+    background-color: #EEE;
+}
+main p { margin: 1em 0; }
+
+@media only screen and (max-width: 1200px) {
+    header { padding: 2em 2em; }
+}
+@media only screen and (max-width: 600px) {
+    header { padding: 1em 1em; }
+    h1 { margin: 0.3em 0px; }
+    nav ul li { margin: 1em 0.5em; }
+    main { padding: 0.5em 1em; }
+}
