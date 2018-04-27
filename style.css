@@ -5,20 +5,12 @@ h1 { margin: 1em 0px; font-family: "Oswald", serif; }
 
 header {
     text-align: center;
-    background: black url("background-1220464.jpg") center;
-    padding: 3em 3em;
+    padding: 3em; margin: 3em;
+    border: 3px solid black;
+    padding-bottom: 3em;
     font-size: 14pt;
 }
 
-@media only screen and (max-width: 1200px) {
-header { background: url("background-1220464-1200.jpg") center; }
-}
-
-@media only screen and (max-width: 600px) {
-header { background: url("background-1220464-600.jpg") center; }
-}
-
-header, header a { color: #EEE; text-shadow: 0px 0px 5px black; }
 header h1 { font-size: 48pt; }
 header > * {
     margin-left: auto;
@@ -26,30 +18,36 @@ header > * {
     max-width: 30em;
 }
 
+header a { color: black; text-decoration: none }
+header a:hover { text-decoration: underline }
+
+
 nav {
     font-size: 16pt;
     font-family: "Oswald", sans;
     text-align: center;
-    background-color: #15241d;
+    border-top: 3px solid #DDD;
+    border-bottom: 3px solid #DDD;
 }
 nav ul { margin: 0px auto }
 nav ul li { display: inline-block; margin: 1em 2em; text-transform: uppercase }
-nav, nav a { color: #EEE; text-decoration: none }
+nav, nav a { color: black; text-decoration: none }
+nav a:hover { text-decoration: underline }
 
 main {
     max-width: 30em;
     margin: 0px auto;
     padding: 2em 3em;
-    background-color: #EEE;
 }
 main p { margin: 1em 0; }
 
 @media only screen and (max-width: 1200px) {
-    header { padding: 2em 2em; }
+    header { padding: 2em; margin: 2em; }
 }
-@media only screen and (max-width: 600px) {
-    header { padding: 1em 1em; }
+
+@media only screen and (max-width: 800px) {
+    header { padding: 0em; margin: 1em; border: 0px }
     h1 { margin: 0.3em 0px; }
-    nav ul li { margin: 1em 0.5em; }
+    nav ul li { margin: 0.2em 0.5em; }
     main { padding: 0.5em 1em; }
 }

@@ -10,7 +10,9 @@
 
 # IDA Group
 
-IDA is a research team at the [Department of Computer Science](http://cs.felk.cvut.cz)  of the Faculty of Electrical Engineering, CTU in Prague.
+IDA is a research team at the [Department of Computer Science](http://cs.felk.cvut.cz)
+of the [Faculty of Electrical Engineering](http://fel.cvut.cz),
+[CTU in Prague](http://cvut.cz).
 
 </header><nav>
 
