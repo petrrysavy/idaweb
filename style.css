@@ -6,7 +6,6 @@ h1 { margin: 1em 0px; font-family: "Oswald", serif; }
 header {
     text-align: center;
     padding: 3em; margin: 3em;
-    border: 3px solid black;
     padding-bottom: 3em;
     font-size: 14pt;
 }
