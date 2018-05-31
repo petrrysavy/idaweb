@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IDA Research Group</title>
+<title>The Intelligent Data Analysis lab</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width" />
 </head>
@@ -9,7 +9,7 @@
 
 <header>
 
-# IDA Group
+# The Intelligent Data Analysis lab
 
 IDA is a research team at the [Department of Computer Science](http://cs.felk.cvut.cz)
 of the [Faculty of Electrical Engineering](http://fel.cvut.cz),
