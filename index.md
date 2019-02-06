@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>The Intelligent Data Analysis lab</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width" />
 </head>
-<html>
-
+<body>
 <header>
 
 # The Intelligent Data Analysis lab
@@ -15,18 +14,17 @@ IDA is a research team at the [Department of Computer Science](http://cs.felk.cv
 of the [Faculty of Electrical Engineering](http://fel.cvut.cz),
 [CTU in Prague](http://cvut.cz).
 
-</header><nav>
+</header>
+<nav>
 
  - [Members](http://cs.felk.cvut.cz/en/people/?researchTeam=3)
  - [Projects](http://cs.felk.cvut.cz/en/projects/ida)
  - [Publications](http://cs.felk.cvut.cz/en/publications/ida)
 
 </nav>
-
-
-
 <main>
 
+<section>
 In IDA, we try to make computers discover knowledge in data.
 To this end we develop
 [data mining](http://en.wikipedia.org/wiki/Data_mining) and
@@ -43,25 +41,11 @@ and [relational data mining](http://en.wikipedia.org/wiki/Relational_data_mining
 overcoming the deficiency of traditional data mining tools
 which constrain their analysis to a mere single table of a multi-relational database.
 Our main application area is bioinformatics, mainly [genomics](http://en.wikipedia.org/wiki/Genomics).
+</section>
+
+<section id="twitter-feed-section"><div id="twitter-feed">
+<a class="twitter-timeline" href="https://twitter.com/IDA_CTU?ref_src=twsrc%5Etfw">Tweets by IDA_CTU</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div></section>
 
 </main>
-
-<!--
-## People
-
- - [Ing. Michael Anděl](http://cs.felk.cvut.cz/en/people/andelmi2)
- - [Ing. Jáchym Barvínek](http://cs.felk.cvut.cz/en/people/barvijac)
- - [Radomír Černoch, MSc.](http://cs.felk.cvut.cz/en/people/cernorad)
- - [Bc. Martin Hořeňovský](http://cs.felk.cvut.cz/en/people/horenmar)
- - [Ing. Ondřej Hubáček](http://cs.felk.cvut.cz/en/people/hubacon2)
- - [doc. Ing. Jiří Kléma, Ph.D.](http://cs.felk.cvut.cz/en/people/klema)
- - [Ing. Vladislav Král](http://cs.felk.cvut.cz/en/people/kralvla1)
- - [Bc. Marek Kryška](http://cs.felk.cvut.cz/en/people/kryskmar)
- - [Dr. Vyacheslav Kungurtsev, Ph.D.](http://cs.felk.cvut.cz/en/people/kunguvya)
- - [Ing. František Malinka](http://cs.felk.cvut.cz/en/people/malinfr1)
- - [Petr Ryšavý, MSc.](http://cs.felk.cvut.cz/en/people/rysavpe1)
- - [Ing. Gustav Šourek](http://cs.felk.cvut.cz/en/people/souregus)
- - [Ing. Martin Svatoš](http://cs.felk.cvut.cz/en/people/svatoma1)
- - [prof. Ing. Filip Železný, Ph.D.](http://cs.felk.cvut.cz/en/people/zelezny)
--->
 </html>

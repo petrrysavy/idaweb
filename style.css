@@ -27,18 +27,27 @@ nav {
     text-align: center;
     border-top: 3px solid #DDD;
     border-bottom: 3px solid #DDD;
+    margin: 1em 0;
 }
 nav ul { margin: 0px auto }
 nav ul li { display: inline-block; margin: 1em 2em; text-transform: uppercase }
 nav, nav a { color: #162f57; text-decoration: none }
 nav a:hover { text-decoration: underline }
 
-main {
+section {
     max-width: 30em;
     margin: 0px auto;
     padding: 2em 3em;
 }
-main p { margin: 1em 0; }
+section p { margin: 1em 0; }
+#twitter-feed-section {
+    max-width: none;
+    border-top: 3px solid #DDD;
+}
+#twitter-feed {
+    max-width: 30em;
+    margin: 0 auto;
+}
 
 @media only screen and (max-width: 1200px) {
     header { padding: 2em; margin: 2em; }
@@ -48,5 +57,5 @@ main p { margin: 1em 0; }
     header { padding: 0em; margin: 1em; border: 0px }
     h1 { margin: 0.3em 0px; }
     nav ul li { margin: 0.2em 0.5em; }
-    main { padding: 0.5em 1em; }
+    section { padding: 0.5em 1em; }
 }
